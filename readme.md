@@ -8,7 +8,7 @@ This python program combines the nearest neighbour algorithm and adjacent pairwi
 
 Using the Program
 -------------------
-The file 'RNNA_adjacentPairwiseExchange.py' can be run from command prompt/terminal, or from a python editor like Enthought Canopy. The sample TSPs from 'sample TSP data.py' are automatically imported into the program. In order to run the program, call the function 'TSP(matrix, starting_city)'. 'starting_city' is an optional parameter - it is the city that you wish to start in (which may or may not be required, depending on the nature of the problem). Matrix is a tuple, where each element is a list representing a row. 
+The file -RNNA_adjacentPairwiseExchange.py- can be run from command prompt/terminal, or from a python editor like Enthought Canopy. The sample TSPs from 'sample TSP data.py' are automatically imported into the program. In order to run the program, call the function 'TSP(matrix, starting_city)'. 'starting_city' is an optional parameter - it is the city that you wish to start in (which may or may not be required, depending on the nature of the problem). Matrix is a tuple, where each element is a list representing a row. 
 
 Input Specifications
 --------------------
