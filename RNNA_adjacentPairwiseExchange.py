@@ -20,7 +20,7 @@ def TSP(city_matrix,city=""):
     Description: returns heuristic solution and objective function value when given the corresponding matrix and starting city (optional)
     
     Input:
-        city_matrix: a tuple where each element is a list of length n. there are n such elements in the tuple
+        city_matrix: a tuple where each element is a list of length n+1. there are n such elements in the tuple
         city: a string (optional: if not specified, an empty string is used instead)
     
     Output:
