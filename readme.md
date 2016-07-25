@@ -12,8 +12,8 @@ The file ``RNNA_adjacentPairwiseExchange.py`` can be run from command prompt/ter
 
 Input Specifications
 --------------------
-The input is a tuple whose elements are lists. Each list represents a row in the matrix. The first element of each listis a string, which is the name of the city/node. The rest of the elements in the row are numbers. If there are ``n`` lists (or "rows"), there should be exactly ``n+1`` elements in each row/list. For example: ::
-                ``(["a", inf, 200, 1000, 700], ["b",500, inf, 400, 3000], ["c",300, 500, inf, 950], ["d", 900, 400, 700, inf])``
+The input is a tuple whose elements are lists. Each list represents a row in the matrix. The first element of each listis a string, which is the name of the city/node. The rest of the elements in the row are numbers. If there are ``n`` lists (or "rows"), there should be exactly ``n+1`` elements in each row/list. For example:
+>``(["a", inf, 200, 1000, 700], ["b",500, inf, 400, 3000], ["c",300, 500, inf, 950], ["d", 900, 400, 700, inf])``
 would be a valid input. More examples of valid inputs are provided in ``sample TSP data.py``
 
 More Information
